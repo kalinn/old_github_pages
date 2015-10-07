@@ -1,0 +1,16 @@
+:::::::::::::::::::::
+:::::DEVELOPMENT:::::
+:::::::::::::::::::::
+cd into pelican-site folder and run:
+pelican content
+cd output
+python -m pelican.server
+
+
+
+::::::::::::::::::::
+:::::DEPLOYMENT:::::
+::::::::::::::::::::
+cd into pelican-site folder and run:
+pelican content -s pelicanconf.py -o ../kalinn.github.io
+then 
