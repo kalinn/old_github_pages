@@ -198,6 +198,10 @@ main div#ending_message {
 	main article div.article_text img {
 		min-width: 100%;
 	}
+	main article div.article_text #page_text img {
+		min-width: 200px;
+		max-width: 275px;
+	}
 	main article div.article_text {
 		line-height: 1.375em;
 		font-size: 20px;
@@ -240,6 +244,10 @@ main div#ending_message {
 	}
 	main article div.article_text img {
 		min-width: 100%;
+	}
+	main article div.article_text #page_text img {
+		min-width: 200px;
+		max-width: 275px;
 	}
 	main article div.article_title h3 {
 		font-size: 24px;
