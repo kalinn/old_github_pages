@@ -198,7 +198,7 @@ main div#ending_message {
 	main article div.article_text img {
 		min-width: 100%;
 	}
-	main article div.article_text #page_text img {
+	main article div.page_text img {
 		min-width: 200px;
 		max-width: 275px;
 	}
@@ -245,7 +245,7 @@ main div#ending_message {
 	main article div.article_text img {
 		min-width: 100%;
 	}
-	main article div.article_text #page_text img {
+	main article div.page_text img {
 		min-width: 200px;
 		max-width: 275px;
 	}
