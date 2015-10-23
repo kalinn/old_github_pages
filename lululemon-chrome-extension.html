@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+  <link rel="shortcut icon" href="/theme/images/favicon.ico">
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="kristin linn">
+  <meta name="description" content="Posts and writings by kristin linn">
+
+
+<meta name="keywords" content="">
+
+  <title>
+    Kristin Linn
+&ndash; Lululemon Chrome Extension  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="">
+        <img src="/theme/images/logo.png" alt="logo">
+      </a>
+      <h2><a href="">kristin linn</a></h2>
+      <p></p>
+      <div id="social">
+      	<a href="https://twitter.com/kristin_linn">
+      		<img class="icon" src="/theme/images/twitter.png"/>
+      	</a>
+      	<a href="https://github.com/kalinn">
+      		<img class="icon" src="/theme/images/github.png"/>
+      	</a>
+      	<a href="https://www.linkedin.com/pub/kristin-linn/56/624/9b1">
+      		<img class="icon" src="/theme/images/linkedin.png"/>
+      	</a>
+      </div>
+      <ul>
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a href="/pages/cv.html">CV</a></li>
+        <li><a href="/pages/projects.html">Projects</a></li>
+      </ul>
+
+<!--          -->
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+      <a href="/">Yellow Brick Code</a> &brvbar; <a href="/archives.html">Archives</a>
+      </p>
+    </header>
+
+<article>
+  <div class="article_title">
+    <h3><a href="/lululemon-chrome-extension.html">Lululemon Chrome Extension</a></h3>
+  </div>
+  <div class="article_text">
+    <p>I've always enjoyed running, but it wasn't until my car unexpectedly died last April while looking for apartments in Philadelphia that I started running several miles on a weekly basis. If I have an eye appointment in center city, I'll run there. If I'm meeting friends at an outdoor orchestra concert in Old City, I'll run there. Thanks to Spotify, Lululemon, and the "always sunny" Philly weather, running has become one of my favorite things to do in my free time, and it's a great way to explore the city. </p>
+<p><center>
+    <img alt="Full Price Crop" src="/images/crop.png" />
+    <h5>Run: Inspire Crop II at full price.</h5>
+</center></p>
+<p>I'm quite fond of a particular type of running crops from Lululemon, but at nearly $100 a pop, my bank account doesn't share the same affection for them. Whenever I remember, I visit the online Lululemon sale site and scroll through all the items to see if my crops are there (or command+f if I remember the item names). Before arriving at the Recurse Center, I toyed with the idea of building a system that would somehow alert me when my favorite crops go on sale online. However, I wasn't sure what steps would be involved (would I need to set up a Heroku server to run a script once a day?) or where to start. When I got to RC, a few people were building Chrome extensions and I knew immediately this was exactly the way to go for this project. </p>
+<p><center>
+    <img alt="Sale Crop" src="/images/saleCrops.png" />
+    <h5>Before building my extension, I'd manually scan through the sale looking for my running crops.</h5>
+</center></p>
+<p>I started following <a href="https://developer.chrome.com/extensions/getstarted">this tutorial</a>, which did a decent job of teaching me about the manifest file and loading my extension for development. Looking back at this tutorial now, I'm realizing I skipped the "Learn Basics" section which would have been useful. </p>
+<p>Everything about working with the web, browsers, and javascript was new to me. I had never heard of requests, events, or DOMs. A callback is what an actor or musician receives when he/she makes it to the next round of an audition. It's also a thing in javascript that is much harder to understand but mission critical to my extension! Callbacks allow code to be executed in the order that corresponds to how the client is interacting with the webpage. </p>
+<p><center>
+    <img alt="Click" src="/images/click.png" />
+    <h5>When I click on the lululemon icon, the javascript in my Chrome extension executes. A box appears showing which of my prespecified items are on sale and displaying all the available sale colors.</h5>
+</center></p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Wed 23 September 2015</p>
+    <p>Category: <a href="/category/recurse-center-chrome-extension-lululemon-javascript.html">Recurse Center, Chrome Extension, Lululemon, Javascript</a>
+    </p>
+  </div>
+
+
+</article>
+
+
+    <div id="ending_message">
+      <p>&copy; kristin linn. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
+    </div>
+  </main>
+</body>
+</html>
