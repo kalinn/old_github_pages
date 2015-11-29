@@ -1,0 +1,36 @@
+a {
+	color: #1a76ff;
+}
+a:hover {
+	color: #99c2ff;
+}
+aside {
+    background-color: #73264d;
+}
+aside a:hover {
+    color: #999999;
+}
+a.btn {
+    background-color: #73264d;
+}
+a.btn:hover {
+	background-color: #ac3973;
+	color: #fff;
+}
+a.sc-twitter:hover {
+    color: #fff;
+}
+a.sc-github:hover {
+    color: #fff;
+}
+a.sc-linkedin:hover {
+    color: #fff;
+}
+.tag-cloud a {
+    background-color: #73264d;
+    color: #fff;
+}
+.tag-cloud a:hover {
+    background-color: #ac3973;
+    color: #fff;
+}
